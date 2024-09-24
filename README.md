@@ -11,6 +11,9 @@ Welcome to **FundMe**, a decentralized application (DApp). This project demonstr
 
 Our website interface lets you easily send funds and view funds, all powered by the Ethereum blockchain!
 
+## Output
+![Screenshot 2024-09-24 221734](https://github.com/user-attachments/assets/b6b0de24-901a-479d-a58a-d008fb9668d7)
+
 ## 💻 Tech Stack
 
 - **Solidity**: Smart contract
