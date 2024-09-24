@@ -1,13 +1,40 @@
-# Sample Hardhat Project
+# Simple Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+# 💸 FundMe DApp
 
-Try running some of the following tasks:
+Welcome to **FundMe**, a decentralized application (DApp). This project demonstrates the power of smart contracts deployed on the blockchain using **Hardhat** with a sleek, simple frontend to let users interact easily. Let’s walk you through how it works and how you can get it up and running.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+## 📖 What is FundMe?
+
+**FundMe** is a smart contract that allows users to:
+- Only the contract owner can withdraw funds.
+
+Our website interface lets you easily send funds and view funds, all powered by the Ethereum blockchain!
+
+## 💻 Tech Stack
+
+- **Solidity**: Smart contract
+- **Hardhat**: Development environment for compiling, deploying, and testing smart contracts
+- **Ethers.js**: Ethereum JavaScript library to interact with the blockchain
+- **Web3Modal**: Seamless wallet connection (like MetaMask)
+
+
+## 🚀 Features
+
+- **Deposit ETH**: Connect your wallet and contribute to the FundMe contract.
+- **View Balance**: Check how much ETH has been deposited so far.
+- **Withdraw Funds**: Only the owner can withdraw the total funds.
+
+
+## 🎯 How It Works
+
+1. **Contributors**: Anyone with an Ethereum wallet can connect to the website and contribute ETH.
+2. **Contract Owner**: Only the contract owner has the permission to withdraw funds.
+3. **Transparency**: Contributions are recorded on the blockchain, visible to anyone.
+
+## 🧑‍💻 Authors
+
+Created by Priyanka Kushwaha as part of an exploration into decentralized DApp.
+
+
+
